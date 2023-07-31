@@ -1,1 +1,23 @@
 @import '../node_modules/mini.css/dist/mini-nord.min.css';
+
+form {
+    margin: 0 auto;
+    width: 80%;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #CCC;
+    padding: 0.5em;
+    background-color: antiquewhite;
+}
+
+.error {
+    color: red;
+    font-style: italic;
+}

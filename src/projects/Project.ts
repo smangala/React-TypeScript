@@ -14,7 +14,7 @@ export class Project {
 
     constructor(init?: any) {
         if (!init) return;
-        if (!init.id) this.id = init.id;
+        if (init.id != undefined) this.id = init.id;
         if (init.name!='') this.name = init.name;
         if (init.description!='') this.description = init.description;
         if (init.imageUrl!='') this.imageUrl = init.imageUrl;
